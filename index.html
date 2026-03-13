@@ -7,60 +7,178 @@
 
 <title>BANDAR89 – Digital Technology Literacy & Modern Internet Ecosystem</title>
 
-<meta name="description" content="BANDAR89 is a digital technology literacy platform focused on understanding internet technology, cybersecurity awareness, and the modern digital ecosystem.">
+<meta name="description" content="BANDAR89 is a digital technology literacy platform focused on internet technology, cybersecurity awareness, and the modern digital ecosystem.">
 
-<meta name="keywords" content="digital literacy, internet technology, web technology, cybersecurity awareness, digital ecosystem, bandar89">
+<meta name="keywords" content="digital literacy, internet technology, cybersecurity awareness, digital ecosystem, bandar89">
 
 <meta name="author" content="BANDAR89">
 
 <link rel="canonical" href="https://www.bandar89.solutions">
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 <style>
 
-body{
-font-family: Arial, Helvetica, sans-serif;
-line-height:1.8;
-background:#f4f6f8;
+*{
 margin:0;
-color:#333;
+padding:0;
+box-sizing:border-box;
 }
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f5f7fb;
+color:#333;
+line-height:1.7;
+}
+
+/* NAVBAR */
+
+nav{
+background:#0f172a;
+color:white;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav h2{
+font-size:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-size:14px;
+}
+
+/* HERO */
+
+.hero{
+background:linear-gradient(135deg,#1d4ed8,#0ea5e9);
+color:white;
+padding:100px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+opacity:0.9;
+}
+
+.hero a{
+display:inline-block;
+margin-top:30px;
+background:white;
+color:#1d4ed8;
+padding:12px 25px;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+}
+
+/* CONTAINER */
 
 .container{
-max-width:960px;
+max-width:1100px;
 margin:auto;
-padding:40px 20px;
-background:#fff;
+padding:60px 20px;
 }
 
-header{
+/* SECTION */
+
+.section-title{
 text-align:center;
-margin-bottom:40px;
+margin-bottom:50px;
 }
 
-h1{
-font-size:36px;
-color:#1a1a1a;
+.section-title h2{
+font-size:32px;
+margin-bottom:10px;
 }
 
-h2{
+.section-title p{
+color:#666;
+}
+
+/* GRID */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+/* CARD */
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+margin-bottom:10px;
+font-size:20px;
+}
+
+/* ARTICLE */
+
+.article{
+max-width:800px;
+margin:auto;
+}
+
+.article h2{
 margin-top:40px;
-color:#222;
+margin-bottom:15px;
 }
 
-p{
-margin:15px 0;
+.article p{
+margin-bottom:20px;
+color:#555;
 }
 
-a{
-color:#0066cc;
+/* CTA */
+
+.cta{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+.cta a{
+display:inline-block;
+margin-top:20px;
+background:#3b82f6;
+padding:12px 25px;
+border-radius:30px;
+color:white;
 text-decoration:none;
 }
 
+/* FOOTER */
+
 footer{
-margin-top:50px;
 text-align:center;
+padding:30px;
 font-size:14px;
-color:#777;
+color:#888;
 }
 
 </style>
@@ -73,7 +191,7 @@ color:#777;
  "@type": "Organization",
  "name": "BANDAR89",
  "url": "https://www.bandar89.solutions",
- "description": "BANDAR89 is a digital technology literacy initiative focused on internet technology, digital ecosystems, and cybersecurity awareness.",
+ "description": "BANDAR89 is a digital technology literacy initiative focused on internet technology, cybersecurity awareness, and digital ecosystems.",
  "sameAs": [
    "https://medium.com/@bandar89",
    "https://bandar89indonesia.wordpress.com",
@@ -93,133 +211,122 @@ color:#777;
 
 <body>
 
-<div class="container">
+<!-- NAVBAR -->
 
-<header>
+<nav>
 
-<h1>BANDAR89</h1>
+<h2>BANDAR89</h2>
 
-<p>Digital Technology Literacy & Internet Ecosystem Awareness</p>
+<div>
+<a href="#">Home</a>
+<a href="#">Technology</a>
+<a href="#">Cybersecurity</a>
+<a href="#">Digital Literacy</a>
+</div>
 
-</header>
+</nav>
 
-<section>
+<!-- HERO -->
 
-<h2>Introduction to Digital Technology Literacy</h2>
+<section class="hero">
+
+<h1>Digital Technology Literacy</h1>
 
 <p>
-The rapid growth of internet technology has transformed the way people communicate, access information, and interact with digital platforms. Modern society relies heavily on digital systems, making technology literacy an essential skill for individuals navigating the digital world.
+Understanding internet technology, cybersecurity awareness, and the modern digital ecosystem is essential in today's connected world.
 </p>
 
-<p>
-Digital literacy involves more than simply using technology. It includes understanding how digital systems operate, how information flows across networks, and how users can interact with digital platforms responsibly and securely.
-</p>
+<a href="https://www.bandar89.solutions">Explore More</a>
 
 </section>
 
-<section>
+<!-- FEATURES -->
 
-<h2>The Importance of Understanding Internet Technology</h2>
+<section class="container">
 
-<p>
-Internet technology is the foundation of the modern digital ecosystem. Every website, application, and online platform operates through a complex infrastructure that connects users, servers, and digital information across global networks.
-</p>
-
-<p>
-Understanding the basic principles of internet technology allows individuals to better navigate online environments and make informed decisions about digital communication, information consumption, and cybersecurity.
-</p>
-
-<p>
-The modern internet ecosystem consists of several interconnected technologies including web servers, cloud infrastructure, cybersecurity frameworks, and global networking systems.
-</p>
-
-</section>
-
-<section>
+<div class="section-title">
 
 <h2>Key Areas of Digital Literacy</h2>
 
-<p>
-Digital literacy includes a range of skills and knowledge areas that help individuals understand and use technology effectively. These areas include:
-</p>
+<p>Essential knowledge to navigate the modern digital ecosystem.</p>
 
-<ul>
+</div>
 
-<li>Understanding how websites and online platforms operate</li>
+<div class="grid">
 
-<li>Recognizing the importance of cybersecurity and digital safety</li>
+<div class="card">
+<h3>Internet Technology</h3>
+<p>Understanding how websites, servers, and networks power the modern internet.</p>
+</div>
 
-<li>Evaluating online information and digital content critically</li>
+<div class="card">
+<h3>Cybersecurity Awareness</h3>
+<p>Protecting digital identities, securing information, and recognizing online threats.</p>
+</div>
 
-<li>Understanding the structure of modern web technologies</li>
+<div class="card">
+<h3>Digital Ecosystem</h3>
+<p>Exploring the interconnected systems that drive digital innovation worldwide.</p>
+</div>
 
-<li>Using digital communication tools responsibly</li>
+<div class="card">
+<h3>Web Technologies</h3>
+<p>Learning about modern web infrastructure and digital communication platforms.</p>
+</div>
 
-</ul>
-
-<p>
-By developing these skills, individuals can participate more effectively in the digital environment while maintaining awareness of security and privacy concerns.
-</p>
-
-</section>
-
-<section>
-
-<h2>The Modern Digital Ecosystem</h2>
-
-<p>
-The digital ecosystem refers to the network of technologies and digital platforms that interact with each other to create the modern internet environment. This ecosystem includes websites, mobile applications, cloud computing systems, and global data infrastructure.
-</p>
-
-<p>
-As digital technologies continue to evolve, the ecosystem becomes increasingly complex. Innovations in artificial intelligence, cloud computing, and data processing continue to shape the future of the internet.
-</p>
-
-<p>
-Understanding the structure of the digital ecosystem helps individuals and organizations adapt to technological changes and use digital platforms more effectively.
-</p>
+</div>
 
 </section>
 
-<section>
+<!-- ARTICLE -->
 
-<h2>Technology Awareness and Cybersecurity</h2>
+<section class="container">
+
+<div class="article">
+
+<h2>Understanding Digital Technology Literacy</h2>
 
 <p>
-Cybersecurity awareness is a critical aspect of digital literacy. As digital systems grow more interconnected, the importance of protecting digital identities and personal data continues to increase.
+Digital literacy has become a fundamental skill in the modern internet era. As digital technologies continue to evolve, individuals must understand how digital systems operate, how information flows through networks, and how to interact responsibly with online platforms.
 </p>
 
 <p>
-Users must understand basic cybersecurity principles such as protecting personal information, maintaining secure passwords, and recognizing potential online threats.
+The internet ecosystem consists of numerous interconnected technologies including cloud computing infrastructure, global networking systems, and advanced cybersecurity frameworks. Understanding these technologies allows users to navigate digital environments with confidence and awareness.
+</p>
+
+<h2>The Modern Internet Ecosystem</h2>
+
+<p>
+The modern internet ecosystem supports billions of digital interactions every day. Websites, mobile applications, cloud platforms, and data infrastructure work together to create the digital environment used by individuals and organizations worldwide.
 </p>
 
 <p>
-Education and awareness play a vital role in promoting responsible and secure internet usage.
+As innovation continues to shape the digital world, awareness of digital technologies becomes increasingly important for individuals who wish to participate effectively in the digital economy and global information networks.
 </p>
+
+</div>
 
 </section>
 
-<section>
+<!-- CTA -->
+
+<section class="cta">
 
 <h2>Learn More About Digital Technology</h2>
 
 <p>
-For additional insights into digital technology literacy, internet ecosystems, and modern web technologies, visit the following resource:
+Explore insights about digital literacy, internet technology, and cybersecurity awareness.
 </p>
 
-<p>
-<a href="https://www.bandar89.solutions">https://www.bandar89.solutions</a>
-</p>
+<a href="https://www.bandar89.solutions">Visit Official Website</a>
 
 </section>
 
 <footer>
 
-<p>© 2026 BANDAR89 – Digital Technology Literacy Initiative</p>
+© 2026 BANDAR89 – Digital Technology Literacy Initiative
 
 </footer>
-
-</div>
 
 </body>
 
