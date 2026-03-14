@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bandar89-indonesia.github.io/sitemap.xml
